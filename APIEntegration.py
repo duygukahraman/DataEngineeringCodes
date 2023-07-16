@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-url = "http://api.exchangeratesapi.io/v1/latest?base=EUR&access_key=8924bfeeb60375ae1d677d40215b27e8"  #Make sure to change ******* to your API key.
+url = "http://api.exchangeratesapi.io/v1/latest?base=EUR&access_key=apikey"  #Make sure to change ******* to your API key.
 response = requests.get(url)
 #print(response.text)
 data = response.json()
